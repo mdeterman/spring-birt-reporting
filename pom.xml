@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>ws.directweb</groupId>
+	<groupId>com.keyholesoftware</groupId>
 	<artifactId>spring-birt-reporting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
@@ -38,4 +38,19 @@
 		</dependency>
 	</dependencies>
 
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+	<name>spring-birt-reporting</name>
+	<organization>
+		<name>Keyhole Software</name>
+		<url>http://keyholesoftware.com</url>
+	</organization>
+	<scm>
+		<url>https://github.com/mdeterman/spring-birt-reporting</url>
+		<connection>scm:git:https://github.com/mdeterman/spring-birt-reporting.git</connection>
+		<developerConnection>scm:git:https://github.com/mdeterman/spring-birt-reporting.git</developerConnection>
+	</scm>
 </project>
